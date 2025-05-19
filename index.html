@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Galleries</title>
+  <style>
+    body {
+      font-family: "Century Gothic", sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 40px;
+    }
+    .gallery-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+    .repo-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 200px;
+      transition: transform 0.3s ease;
+      text-decoration: none;
+      color: black;
+    }
+    .repo-card:hover {
+      transform: scale(1.05);
+    }
+    .repo-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .repo-title {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Team Galleries</h1>
+  <div class="gallery-links">
+
+    <!-- Repeat this block for each repository -->
+    <a class="repo-card" href="https://mariebridgwood.github.io/Game1Part1/">
+      <img src="https://mariebridgwood.github.io/Game1Part1/images/DSC_0297.JPG" alt="Game1Part1 thumbnail">
+      <div class="repo-title">U8 Maroon Lions Game 1</div>
+    </a>
+
+    <a class="repo-card" href="https://mariebridgwood.github.io/Game2Part1/">
+      <img src="https://mariebridgwood.github.io/Game2Part1/images/DSC_0489.JPG" alt="Game2Part1 thumbnail">
+      <div class="repo-title">U8 Maroon Lions Game 2</div>
+    </a>
+
+    <a class="repo-card" href="https://mariebridgwood.github.io/Game3/">
+      <img src="https://mariebridgwood.github.io/Game3/images/DSC_0742.JPG" alt="Game3 thumbnail">
+      <div class="repo-title">U8 Maroon Lions Game 3</div>
+    </a>
+
+    <a class="repo-card" href="https://mariebridgwood.github.io/Game4/">
+      <img src="https://mariebridgwood.github.io/Game4/images/DSC_0002.JPG" alt="Game4 thumbnail">
+      <div class="repo-title">U8 Maroon Lions Game 4</div>
+    </a>
+
+  </div>
+
+</body>
+</html>
